@@ -67,6 +67,9 @@ WCAG 2.1 Guidelines
 
 ## Author ##
 Roja Shuruthika Kathiravan
+
 M.S. in Computer Science, George Washington University
+
 Course: CSCI 6364 – Machine Learning
+
 Professor: Armin Mehrabian
