@@ -3,10 +3,7 @@ A rule-based and ML-powered tool to evaluate accessibility in UI screenshots usi
 This project is a hybrid **accessibility evaluation tool** for UI screenshots, combining **WCAG 2.1 rule-based checks** with **supervised machine learning models** to assess digital accessibility.
 
 ##  Objective ##
-
-To provide a semi-automated system that evaluates the accessibility of UI designs and screenshots, ensuring inclusivity for all users—including those with disabilities—based on **Web Content Accessibility Guidelines (WCAG)**.
-
----
+To provide a semi-automated system that evaluates the accessibility of UI designs and screenshots, ensuring inclusivity for all users—including those with disabilities—based on **Web Content Accessibility Guidelines (WCAG)**
 
 ##  Features ##
 
@@ -36,10 +33,30 @@ To provide a semi-automated system that evaluates the accessibility of UI design
   - Alt-text availability
   - Readability factors
 
-##  Tech Stack
+##  Tech Stack ##
 
 - Python (NumPy, Pandas, Pillow, Scikit-learn)
 - Streamlit (UI interface)
 - Manual ML model (no sklearn used for custom regression)
 - WCAG 2.1 Guidelines
 
+## Learnings ##
+Implementing a regression model from scratch
+Extracting UI/UX features from image data
+Combining rule-based logic and ML for real-world evaluation
+Building an end-to-end data science pipeline with a frontend
+
+## Future Work ##
+Improve ML model using ensemble or deep learning
+Expand dataset with real-world annotated UI designs
+Support URL-based analysis with browser automation
+Accessibility suggestions and auto-fix recommendations
+
+## Reference ##
+WCAG 2.1 Guidelines
+
+## Author ##
+Roja Shuruthika Kathiravan
+M.S. in Computer Science, George Washington University
+Course: CSCI 6364 – Machine Learning
+Professor: Armin Mehrabian
