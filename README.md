@@ -12,13 +12,16 @@ To provide a semi-automated system that evaluates the accessibility of UI design
   - Use of color
   - Text resizability
   - Presence of alt-text
+    
 ** ML-based accessibility score prediction using:
   - Linear Regression (custom implementation)
   - Random Forest & Logistic Regression (prototype phase)
+    
 ** Outputs:
   - Accessibility score (0–100)
   - Pass/Fail status
   - Downloadable reports
+    
 ** Streamlit-based user interface for quick and interactive testing
 
 ##  Dataset ##
@@ -27,6 +30,7 @@ To provide a semi-automated system that evaluates the accessibility of UI design
   - Manually labeled UI screenshots
   - Synthetic datasets for pattern training
   - 125 screenshots (60% train, 20% validation, 20% test)
+    
 ** Extracted Features:
   - Contrast ratio
   - Font size, spacing
@@ -44,13 +48,18 @@ To provide a semi-automated system that evaluates the accessibility of UI design
 Implementing a regression model from scratch
 
 Extracting UI/UX features from image data
+
 Combining rule-based logic and ML for real-world evaluation
+
 Building an end-to-end data science pipeline with a frontend
 
 ## Future Work ##
 Improve ML model using ensemble or deep learning
+
 Expand dataset with real-world annotated UI designs
+
 Support URL-based analysis with browser automation
+
 Accessibility suggestions and auto-fix recommendations
 
 ## Reference ##
