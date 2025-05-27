@@ -42,6 +42,7 @@ To provide a semi-automated system that evaluates the accessibility of UI design
 
 ## Learnings ##
 Implementing a regression model from scratch
+
 Extracting UI/UX features from image data
 Combining rule-based logic and ML for real-world evaluation
 Building an end-to-end data science pipeline with a frontend
